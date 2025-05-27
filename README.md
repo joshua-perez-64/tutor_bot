@@ -42,7 +42,7 @@ To run TutorBot, ensure the following are installed:
 
 1. Run the Streamlit app:
    ```bash
-   streamlit run app.py
+   streamlit run tutorbot.py
    ```
 2. Open the provided local URL (e.g., `http://localhost:8501`) in your browser.
 3. Upload an MP3 file to transcribe.
@@ -50,7 +50,7 @@ To run TutorBot, ensure the following are installed:
 
 ## Project Structure
 
-- `app.py`: Main application script containing the Streamlit interface, audio processing, and tutoring logic.
+- `tutorbot.py`: Main application script containing the Streamlit interface, audio processing, and tutoring logic.
 - `requirements.txt`: Lists Python dependencies for easy installation.
 - `.gitignore`: Ignores large files and folders (e.g., `ffmpeg` builds, `.conda`).
 
