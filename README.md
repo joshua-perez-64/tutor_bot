@@ -101,7 +101,11 @@ To run TutorBot, ensure the following are installed:
 
 1. Ensure the Conda environment is activated:
    ```bash
+<<<<<<< HEAD
    conda activate tutorbot
+=======
+   streamlit run tutorbot.py
+>>>>>>> 1df0d5cb4469444302ffb30610a55cbb0f22d6d2
    ```
 2. Run the Streamlit app from the project directory:
    ```bash
@@ -118,7 +122,11 @@ To run TutorBot, ensure the following are installed:
 
 ## Project Structure
 
+<<<<<<< HEAD
 - `tutorbot.py`: Main application script containing the Streamlit interface, audio processing with Whisper, and tutoring logic with Ollama.
+=======
+- `tutorbot.py`: Main application script containing the Streamlit interface, audio processing, and tutoring logic.
+>>>>>>> 1df0d5cb4469444302ffb30610a55cbb0f22d6d2
 - `requirements.txt`: Lists Python dependencies for easy installation.
 - `.gitignore`: Ignores large files and folders (e.g., FFmpeg builds, `.conda`, temporary audio files).
 
@@ -132,6 +140,7 @@ To run TutorBot, ensure the following are installed:
 
 ## Troubleshooting
 
+<<<<<<< HEAD
 - **FFmpeg Not Found**:
   - Verify FFmpeg is in your PATH: `ffmpeg -version`.
   - Reinstall FFmpeg and ensure the `bin` folder is added to PATH.
@@ -183,3 +192,8 @@ Contributions are welcome! Please submit issues or pull requests to the [GitHub 
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+=======
+- **FFmpeg Not Found**: Ensure FFmpeg is installed and in your system PATH. Run `ffmpeg -version` to verify.
+- **Ollama Errors**: Confirm Ollama is running and the `llama3:latest` model is pulled.
+- **Large File Issues**: If you encounter GitHub push errors, ensure no large files (e.g., `ffmpeg` binaries) are tracked. The `.gitignore` file prevents this.
+>>>>>>> 1df0d5cb4469444302ffb30610a55cbb0f22d6d2
